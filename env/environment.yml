@@ -1,0 +1,11 @@
+name: todo
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python ~= 3.9
+  - ipykernel
+  - pip:
+    - mysql-connector-python
